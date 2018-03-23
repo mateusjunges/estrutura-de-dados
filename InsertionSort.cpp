@@ -4,12 +4,12 @@
 
 using namespace std;
 
-void troca(int &a, int &b)
+void troca(int &v1, int &v2)
 {
-    int c;
-    c=a;
-    a=b;
-    b=c;
+    int aux;
+    aux=v1;
+    v1=v2;
+    v2=aux;
 }
 
 
